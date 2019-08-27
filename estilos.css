@@ -1,0 +1,29 @@
+
+.caja
+{
+	align-items: center;  
+	box-shadow: 0 0 0.3em rgba(0,0,0,0.5);
+	height: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+.caja .hijo1
+{
+	height: 200px;
+	width: 200px;
+	background-color: #30BBE3;
+}
+.caja .hijo2
+{
+	height: 180px;
+	width: 200px;
+	background-color: #019FB6;
+
+}
+.caja .hijo3
+{
+	height: 280px;
+	width: 200px;
+	background-color: #0D7CA5;
+	align-self: flex-start;
+}
